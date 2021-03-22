@@ -8,7 +8,9 @@ public class Calculator {
 		// TODO Auto-generated method stub
 		System.out.println("hrllo");
 		
-System.out.println(2+3);		
+System.out.println(2+3);
+	System.out.println(2+5);
+	
 	}
 
 }
