@@ -11,5 +11,7 @@ System.out.println(2+3);
 	System.out.println(2+5);
 	
 	}
-
+public static void sq(int num1, int num2) {
+	System.out.println(num1*num2);
+}
 }
