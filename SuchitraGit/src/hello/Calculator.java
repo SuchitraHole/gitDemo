@@ -1,5 +1,6 @@
 package hello;
 
+import org.graalvm.compiler.core.common.type.ArithmeticOpTable.BinaryOp.Add;
 
 public class Calculator {
 
@@ -10,11 +11,21 @@ public class Calculator {
 System.out.println(2+3);
 	System.out.println(2+5);
 	
+	
 	}
+<<<<<<< HEAD
 public static void sq(int num1, int num2) {
 	System.out.println(num1*num2);
 }
 public static void sq2(int num1, int num2) {
 	System.out.println(num1*num2);
 }
+=======
+	public static void add(int num1,int num2) {
+		System.out.println(num1+num2);
+	}
+	public static void sub(int num1,int num2) {
+		System.out.println(num1-num2);
+	}
+>>>>>>> refs/heads/master
 }
